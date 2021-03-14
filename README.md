@@ -10,7 +10,7 @@ A python script that outputs titles of random url's to a text document. The top 
     python3 Coding/python/websiteSearcher/main.py 10 http:// .com
 
 #### Output (console):
-![alt text](https://ibb.co/rmtMpXz)
+![alt text](https://i.ibb.co/xDsGgrB/web-Searcher-Screensot.png)
 
 #### Output (output.txt)
     http://1931.com [FORBIDDEN] 
