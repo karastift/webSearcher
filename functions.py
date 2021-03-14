@@ -44,13 +44,13 @@ class Functions():
         return info
 
     def writeToFile(self, info):
-            if ('sale' in info[2]) == True:
-                    f.write((info[0] + ' [SALE] \n'))
-            elif ('Forbidden' in info[2]) == True:
-                with open('/Users/kara/Coding/python/websiteSearcher/output.txt', 'a') as f:
-                    f.write((info[0] + ' [FORBIDDEN] \n'))
-            else:
-                with open('/Users/kara/Coding/python/websiteSearcher/output.txt', 'a') as f:
-                    f.write((info[0] + ' --> '))
-                    f.write((info[2] + '\n'))
-            f.close()
+        if ('sale' in info[2]) == True:
+                f.write((info[0] + ' [SALE] \n'))
+        elif ('Forbidden' in info[2]) == True:
+            with open('output.txt', 'a') as f:
+                f.write((info[0] + ' [FORBIDDEN] \n'))
+        else:
+            with open('output.txt', 'a') as f:
+                f.write((info[0] + ' --> '))
+                f.write((info[2] + '\n'))
+        f.close()

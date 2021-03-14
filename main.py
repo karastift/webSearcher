@@ -34,9 +34,9 @@ def main():
             url = fun.generateUrl(r, t)
             try:
                 request = fun.requestContent(url)
-                print(f'{OKCYAN}{url[0]}')
                 parser = fun.parseContent(request)
                 fun.writeToFile(parser)
+                print(f'{OKCYAN}{url[0]}')
             except:
                 print(f'{FAIL}{url[0]}')
         print(f'{ENDC}finished checking {a} domains.')
