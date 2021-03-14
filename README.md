@@ -10,28 +10,7 @@ A python script that outputs titles of random url's to a text document. The top 
     python3 Coding/python/websiteSearcher/main.py 10 http:// .com
 
 #### Output (console):
-<div style="background-color:black;">
-    <span style="color:purple">1</span>
-    http://6988.com
-    <span style="color:purple">2</span>
-    http://4993.com
-    <span style="color:purple">3</span>
-    http://2197.com
-    <span style="color:purple">4</span>
-    http://4764.com
-    <span style="color:purple">5</span>
-    http://7665.com
-    <span style="color:purple">6</span>
-    http://835.com
-    <span style="color:purple">7</span>
-    http://2123.com
-    <span style="color:purple">8</span>
-    http://1931.com
-    <span style="color:purple">9</span>
-    http://7909.com
-    <span style="color:purple">10</span>
-    http://1104.com
-</div>
+![alt text](https://ibb.co/rmtMpXz)
 
 #### Output (output.txt)
     http://1931.com [FORBIDDEN] 
